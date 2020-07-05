@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FetchEproductsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtBrandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE70F"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#670404"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fetchProductRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
